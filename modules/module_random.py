@@ -105,4 +105,4 @@ p = random.random()
 
 ###############################################################
 # what is the seed()function?
-# random.seed()
+# random.seed() 
