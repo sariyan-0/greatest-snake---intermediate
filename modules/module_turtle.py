@@ -63,12 +63,24 @@ t = turtle.Turtle()
 #     t.left(5)
 # ------------------------------
 # create a line that rotates around the inside of itself (the value should reduce by 10 each time).
+# t.speed(0)
+# length = 200
+# for i in range(20): 
+#     t.forward(length)
+#     t.left(90)
+#     length = length - 10
+# ------------------------------
+# create a 36 sided polygon
 t.speed(0)
-length = 200
-for i in range(20): 
+
+length = 20
+while length > 0:
     t.forward(length)
-    t.left(90)
-    length = length - 10
+    t.left(5)     
+    length -= 0.01
+
+
+
 
 turtle.mainloop()
 turtle.exitonclick()
