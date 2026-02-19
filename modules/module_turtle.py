@@ -24,8 +24,13 @@ t = turtle.Turtle()
 #     t.left(60)
 # ------------------------------
 # create a hexagon
-for i in range(6):
-    t.forward(200)
-    t.left(60)
+# for i in range(6):
+#     t.forward(200)
+#     t.left(60)
+# ------------------------------
+#create a 36 sided polygon
+for i in range(36):
+    t.forward(20)
+    t.left(10)
 # ------------------------------
 turtle.mainloop()
