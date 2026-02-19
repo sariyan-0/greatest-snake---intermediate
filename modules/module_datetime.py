@@ -104,7 +104,7 @@ jy = 1404
 jm = 10
 jd = 28
 
-solar_start = date(1403, 1, 1)      
+solar_start = date(1403, 1, 1)
 gregorian_start = date(2024, 3, 20) 
 
 
