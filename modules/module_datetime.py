@@ -97,4 +97,18 @@ from datetime import date, datetime, timedelta
 # f.close()
 
 ###################################################################
-# convert solar date to regorian 
+# convert solar date to gregorian
+
+
+jy = 1404
+jm = 10
+jd = 28
+
+solar_start = date(1403, 1, 1)      
+gregorian_start = date(2024, 3, 20) 
+
+
+days_passed = (jm - 1) * 31 + (jd - 1)
+gregorian_date = gregorian_start + timedelta(days=days_passed)
+
+print("Gregorian date is:", gregorian_date)
